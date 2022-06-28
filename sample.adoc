@@ -1,0 +1,30 @@
+:source-highlighter: coderay
+:toc:
+
+= Asciidocサンプル
+
+== AsciiDocの書き方
+以下を参照のこと。
+
+link:https://takumon.github.io/asciidoc-syntax-quick-reference-japanese-translation/[Asciidoctor 文法クイックリファレンス(日本語訳)]
+
+== Markdownとの違い
+以下を参照のこと。
+link:https://asciidoctor.org/docs/asciidoc-vs-markdown/[AsciiDoc vs Markdown, asciidoctor docs]
+
+=== PlantUML
+asciidoc-diagramを使用すると、PlantUMLを直接書けます。
+(画像を勝手に作って挿入してくれる。)
+
+別ファイルにしてincludeで使う方が良いでしょう
+
+.PlantUMLの例
+[plantuml]
+....
+class teleop_turtle
+class turtlesim
+teleop_turtle -> turtlesim : 速度司令を送る
+....
+
+=== その他
+編集中！
